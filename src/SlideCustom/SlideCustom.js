@@ -19,7 +19,7 @@ const SlideCustom = () => {
 				<img src="/lft.png" alt="here" />
 			</div>
 			<div className={styles.slide}>
-				<img src="/lft.png" alt="here" />
+				<img src="/lft.png" alt="here 1" />
 			</div>
 			<div className={styles.slide}>
 				<img src="/lft.png" alt="here" />
