@@ -1,0 +1,36 @@
+.mainContainer {
+	position: relative;
+}
+.containerSlideShow {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.slide {
+	min-width: 100%;
+	color: white;
+	padding: 2em;
+	overflow: hidden;
+	transition: 0.3s ease all;
+	z-index: 10;
+	max-height: 200px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.controls {
+	position: relative;
+}
+.next {
+	position: absolute;
+	z-index: 20;
+	right: 0;
+	top: 38%;
+	cursor: pointer;
+}
+
+.prev {
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 38%;
+	cursor: pointer;
+}
